@@ -1,0 +1,27 @@
+.rowsec{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+.rowsec:hover{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;   
+    font-weight: 600; 
+}
+select{
+    border: none;
+}
+.logoutis{
+    font-size: 1.50rem;
+    color: blue;
+    font-weight: 600;
+}
+@media screen and (max-width: 480px) {
+
+    .rowsec{display: none;}
+}

@@ -1,0 +1,11 @@
+.myprof{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+    color: orangered;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}

@@ -1,0 +1,93 @@
+.Footermmain{
+    height: 60vh;
+    padding: 2rem;
+    color: white;
+    background-color: #f39c20;
+    font-weight: 490;
+    margin-bottom: 2rem;
+
+    
+}
+
+.footerpadding{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 49vh;
+}
+
+.Socialsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    top: 1.7rem;
+    
+}
+.socialname{
+    font-size: 1.7rem;
+}
+
+.fgiicons{
+    display: flex;
+    gap: 1rem;
+}
+.payments{
+    font-size: 19px;
+    font-weight: 500;
+
+}
+
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-info{
+    font-size: 1.6rem;
+    font-family: 600;
+
+}
+.policysec{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+
+.razerpaylogo>img{
+    width: 10rem;
+}
+
+.polisyname-f1{
+    font-size: 1.6rem;
+    font-family: 600;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .Footermmain{
+        
+        padding: 2rem;
+        color: white;
+        background-color: #f39c20;
+        font-weight: 490;
+        height: 140vh;
+        margin-bottom: 2rem;
+
+    }
+    .footerpadding{
+      display: flex;
+      flex-direction: column;
+      gap: 3.45rem;
+    }
+  }

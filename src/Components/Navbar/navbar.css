@@ -1,0 +1,274 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #d0dbcf;
+    position: fixed;
+    width: 94%;
+    align-items: center;
+    z-index: 2333;
+    height: 10vh;
+    top: 0px;
+    
+    
+}
+
+.navrightbox{
+    display: flex;
+    gap: 2rem;
+}
+
+.Serchbox{
+    display: flex;
+   
+    width: 39rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.serchlogoIN{
+    flex: 90%;
+    height: 2rem;
+    background-color: #ffffff;
+    border: 1px solid blanchedalmond;
+}
+.serchlogo{
+    flex: 1%;
+    height: 2.1rem;
+    border: 1px solid blanchedalmond;
+    background-color: #f8a83c;
+    color: white;
+}
+.hamburgormenuicon{
+    display: none;
+}
+
+.echnavsection{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.dil-right{
+    display: grid;
+    
+
+}
+.dil-right :nth-child(2){
+    font-size: 0.78rem;
+}
+
+.dil-right :nth-child(1){
+    font-size: 0.90rem;
+    
+    width: 1.23rem;
+    height: 0.97rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9aa41;
+}
+.left-navmenu{
+    display: none;
+}
+.normalnavwithoutclick{
+    display: none;
+}
+.serchresponsive{
+    display: none;
+}
+.basketlogoresponsive{
+    display: none;
+}
+.imagelogo{
+    width: 2rem;
+}
+.imagelogo>img{
+    width: 10rem;
+    height: 5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .left-navmenu{
+        display: block;
+        width: 65%;
+        position: absolute;
+        transition: all .52s;
+        height: 100%;
+        top: 3px;
+        left: 1px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(153, 66, 51);
+        z-index: 1;
+        
+
+    }
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        height: 10vh;
+        
+    }
+
+    .normalnavwithoutclick{
+        display: none;
+    }
+    .hamburgormenuicon{
+        display: block;
+    }
+    .navupper-section{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid ;
+        background-color: #e62e04;
+        flex: 1;
+    }
+    .profile{
+       
+        flex: 2;
+        display: flex;
+        overflow: hidden;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    .profile>img{
+        width: 5.50rem;
+        height: 5.50rem;
+
+        border-radius: 100%;
+        overflow: hidden;
+        
+        
+    }
+    .closemenu{
+       position: relative;
+       top: -2.50rem;
+       right: -7rem;
+       color: white;
+    }
+    .signupandregister{
+        flex: 1;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        color: white;
+      
+
+    }
+    .Serchbox{
+        display: none;
+    }
+    .signupandregister{
+        display: flex;
+        gap: 1rem;
+    }
+    .REgistrations-n{
+        border-left: 1px solid white;
+        height: 2rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding-left: 1rem;
+
+        
+    }
+    .othersection{
+        flex: 3.50;
+        padding-top: 1rem;
+        display: grid;
+        gap: 40px;
+        background-color: #ffffff;
+    }
+    .eachelement{
+        display: flex;
+        gap: 1.59rem;
+        padding-left: 12px;
+    }
+    
+    .navrightbox{
+        display: none;
+    }
+   
+    .imagelogo{
+        width: 15rem;
+    }
+    .imagelogo>img{
+        width: 14rem;
+    }
+    .serchresponsive{
+        display: block;
+    }
+    .serchlogoIN-responsive{
+      
+       display: none;
+       
+
+    }
+   
+    .serchlogo-responsive{
+        position: relative;
+        z-index: 2;
+        
+    }
+    .serchlogoIN-responsiveactive{
+        position: absolute;
+       left: 1px;
+       height: 98px;
+       width: 100%;
+       padding: 12px;
+      
+       
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: start;
+       
+       display: block;
+       overflow: hidden;
+       height: 50px;
+       padding: 0 0 0 15px;
+       padding-left: 4rem;
+       border: 1px solid hsl(0, 76%, 97%);
+       border-right: 0;
+       border-radius: 3px 0 0 3px;
+       font-size: 13px;
+    }
+    .serchlogo-responsiveactive{
+        position: relative;
+        left: 19.70rem;
+        padding-top: 4px;
+        
+    }
+    .basketlogoresponsive{
+        display: block;
+    }
+    .Navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        background-color: #fff;
+        height: 6vh;
+       
+        align-items: center;
+        
+    }
+    .closeserch{
+        position: absolute;
+        right: 39rem;
+        top: 6px;
+    }
+   
+  }

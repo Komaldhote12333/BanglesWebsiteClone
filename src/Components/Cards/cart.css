@@ -1,0 +1,103 @@
+.maincartitemech{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.50rem;
+    border: 1.70px solid rgb(119, 199, 155);
+    background-color: white;
+    margin-bottom: 2rem;
+
+}
+.marginep{
+    margin-top: 1rem;
+}
+.yourcard{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: cyan;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.maincardbox{
+    padding: 1rem;
+}
+.echprodpricese{
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.productnamemain{
+    display: flex;
+    gap: 1rem;
+    padding: 0.1rem;
+}
+.imagecse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.40rem;
+    overflow: hidden;
+}
+
+.imagecse>img{
+    width: 10rem;
+    border-radius: 10px;
+    
+}
+.echprodpricesemobile{
+    display: none;
+}
+.productnamemain{
+    font-weight: 630;
+    font-size: 1.1rem;
+
+}
+.orignalpriceechc{
+    color: red;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+.productname{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+@media screen and (max-width: 480px) {
+    .echprodpricese{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+    .maincartitemech{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+
+    }
+    
+    .maincardbox{
+        padding: 0.2rem;
+    }
+    .imagecse>img{
+        width: 6rem;
+        border-radius: 10px;
+        
+    }
+    .echprodpricese{
+        display: none;
+    }
+    .echprodpricesemobile{
+        display: flex;
+        gap: 1.70rem;
+    }
+    .marginep{
+        margin-top: 2rem;
+    }
+  
+    
+  }

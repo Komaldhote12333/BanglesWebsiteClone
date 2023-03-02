@@ -1,0 +1,99 @@
+.BEstsellmainbox{
+    width: 90%;
+   
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.8rem;
+    border: 1px solid #ebe0e0;
+    margin-bottom: 2rem;
+
+}
+.bestsellleftpart{
+    padding: 0.3rem;
+    padding-right: 10px;
+    border-right: 1px solid #ebe0e0;
+}
+.bestsellleftpart>img{
+    width: 6rem;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  
+}
+.price-boxbest{
+    display: flex;
+    gap: 0.8rem;
+}
+.bestkalast{
+    display: flex;
+    justify-content: space-between;
+}
+.besthavetwobaox{
+    display: grid;
+    gap: 0.4rem;
+}
+.bestsell{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+   
+}
+.react-multi-carousel-track {
+    padding-top: 1rem;
+    padding-bottom: 0.38rem;
+ 
+   }
+
+   .bestitemname{
+    font-weight: 600;
+    font-size: 15px;
+
+   }
+
+
+   .bastsellnormalprice{
+    font-weight: 600;
+    font-size: 15px;
+   }
+   .bestsellname{
+    padding-left: 2.4rem;
+    padding-top:1rem ;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    width: fit-content;
+  
+   }
+   .bestsell{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background-color: white;
+    margin-bottom: 2rem;
+
+   }
+@media screen and (max-width: 480px) {
+   .bestsellcrousel{
+    padding-right: 0rem;
+   }
+   .react-multi-carousel-track {
+  
+    position: relative;
+    left: 0.9rem;
+    
+    padding-top: 1rem;
+    padding-bottom: 0.30rem;
+   }
+   .BEstsellmainbox{
+    width: 90%;
+ 
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    background-color: #fcf6f6;
+    
+}
+  }

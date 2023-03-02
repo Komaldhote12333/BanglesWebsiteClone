@@ -1,0 +1,129 @@
+.chackoutbox{
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+
+.imageandtotal{
+    padding: 0.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagebar{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagebar>img{
+    width: 25rem;
+    height: 27rem;
+}
+
+.chaoutmoney{
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-weight: 600;
+    font-size: 1rem;
+   
+}
+.chaoutmoneye{
+    color: red;
+}
+
+.phonpaynumber{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 780;
+    color: blue;
+    font-size: 2rem;
+}
+
+.Phonepaynumberc{
+    color: orange;
+    
+}
+
+.addresh{
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(15, 218, 106);
+    flex-direction: column;
+    text-align: center;
+}
+
+.addreshmain{
+    color: brown;
+}
+
+
+@media screen and (max-width: 480px) {
+    .chackoutbox{
+        padding: 0rem;
+        margin-bottom: 2rem;
+
+    }
+    .imageandtotal{
+        padding: 0.01rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+.chaoutmoney{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-weight: 600;
+    font-size: 140%;
+     text-shadow: 1px 1px rgb(134, 95, 95);
+}
+
+.chaoutmoneye{
+    color: orange;
+   }
+   .phonpaynumber{
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 780;
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.addresh{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(15, 218, 106);
+    flex-direction: column;
+    text-align: center;
+}
+   
+  }
+ 
+
+
+  

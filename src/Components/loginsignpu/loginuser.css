@@ -1,0 +1,12 @@
+.rembersection{
+    display: flex;
+    gap: 4px;
+    color: rgb(126, 23, 23);
+}
+.chackebox23{
+    display: flex;
+    justify-content: space-between;
+}
+.forgetpassword{
+    color: red;
+}

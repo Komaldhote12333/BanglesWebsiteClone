@@ -1,0 +1,39 @@
+.privasyboxmain{
+
+    padding-left: 5%;
+    margin-bottom: 2rem;
+
+    padding-right: 5%;
+}
+.privasypadding{
+   
+    padding: 1.50rem;
+    background-color: #fff;
+}
+.eachprivasybox{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.privasyname{
+    font-weight: 600;
+    font-size: 1.50rem;
+}
+.eachprivasybox>p{
+    font-weight: 400;
+    font-size: 1.21rem;
+}
+
+ @media screen and (max-width: 480px) {
+    .privasyboxmain{
+        padding: 0.89rem;
+        margin-bottom: 2rem;
+
+        
+    }
+    .privasypadding{
+      
+        padding: 0.9rem;
+        background-color: #fff;
+    }
+  }

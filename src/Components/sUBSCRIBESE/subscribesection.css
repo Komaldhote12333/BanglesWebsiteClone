@@ -1,0 +1,76 @@
+.subscribemain{
+  
+    margin-bottom: 1rem;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: #e0d9da;
+    margin-bottom: 2rem;
+
+}
+
+.subscribeemaisec{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+   
+}
+.subbtn2>button{
+    padding: 0.58rem;
+    width: 8rem;
+    border: none;
+    background-color: rgb(209, 215, 221);
+    border-radius: 0.50rem;
+}
+.subbtn2>button:hover{
+    background-color: orange;
+    box-shadow: 0px 0px  5px orange;
+}
+
+
+.subbtn{
+    border: navy;
+  padding: 0.7rem;
+  background-color: #f7cacf;
+}
+
+
+
+.subbtn:hover{
+    background-color: rgb(233, 228, 219);
+    box-shadow: 0px 0px  5px rgb(117, 114, 108);
+}
+.subsectionp{
+    padding: 2rem;
+    display: grid;
+    gap: 1.60rem;
+   
+}
+.dubscribeheading{
+    font-size: 1.75rem;
+    color: #573437;
+    font-weight: 500;
+}
+.subscribepadding{
+    font-weight: 200;
+}
+
+
+@media only screen and (min-device-width : 120px) and (max-device-width : 480px) {
+    /*style*/
+
+    .subsectionp{
+        padding: 0.5rem;
+       
+    }
+    .subscribeemaisec{
+        display: flex;
+        flex-direction: column;
+        gap: 1.4rem;
+    }
+}

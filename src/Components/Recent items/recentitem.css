@@ -1,0 +1,115 @@
+.Recentsection{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    height: 55vh;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.3rem;
+    
+    
+    
+}
+.product-price {
+color: red;
+font-weight: 600;
+}
+.img-name{
+   font-weight: 600;
+}
+
+
+.recerntname{
+    font-weight: 400;
+
+   color: rgb(8, 7, 7);
+    height: 2rem;
+    
+}
+
+.r--name{
+    width: fit-content;
+   display: flex;
+    
+    height: 2rem;
+    position: relative;
+    left: 1rem;
+    font-size: 2rem;
+ 
+
+    
+}
+
+.r-box{
+   border: 1px solid #ebe0e0;
+     height: 17rem;
+      display: flex;
+     flex-direction: column;
+     justify-content: center;
+      align-items: center;
+     gap: 15px;
+     width: 14rem;
+     padding-top: 2px;
+     
+ }
+
+ .r-box:hover{
+   box-shadow: 0px 0px 10px rgb(59, 37, 138);
+
+    
+}
+
+ .-rimage{
+   padding: 0.60rem;
+    width: 100%;
+    height: 50%;
+    border: 1px sold black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }
+
+ .r-content{
+    display: grid;
+    gap: 0.78px;
+    margin-top: 0.45rem;
+    padding: 1rem;
+    padding-top: 2rem;
+ }
+
+ .-rimage>img{
+    width: 12rem;
+    height: 9rem;
+ }
+.react-multi-carousel-track {
+   gap: px;
+}
+.price-box {
+   display: flex;
+   gap: 1rem;
+}
+@media screen and (max-width: 480px) {
+    /*style*/
+    .-rimage{
+      padding: 0.4rem;
+      overflow: hidden;
+    }
+    .r-box{
+      
+        width: 12rem;
+       
+        
+    }
+    .Recentsection{
+      
+      height: 40vh;
+      margin-bottom: 2rem;
+
+      
+      
+      
+      
+  }
+}

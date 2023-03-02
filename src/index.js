@@ -2,13 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from "react-router-dom";
 
+import reportWebVitals from './reportWebVitals';
+import { StateProvider } from './Components/contextapi/context';
+import reducer , {initialState} from './Components/contextapi/reduces';
+import 'react-toastify/dist/ReactToastify.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <Router>
   <React.StrictMode>
-    <App />
+  <StateProvider reducer ={reducer} initialState ={initialState}>
+  <App />
+  </StateProvider>
+   
   </React.StrictMode>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function
